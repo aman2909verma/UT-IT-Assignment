@@ -4,7 +4,7 @@ import com.knoldus.models.Company
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class IntegrationTest extends AnyFlatSpec{
+class CompanyTest extends AnyFlatSpec{
 
   "Company" should "be valid" in {
 
