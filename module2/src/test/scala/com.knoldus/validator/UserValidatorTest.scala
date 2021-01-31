@@ -6,9 +6,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 class UserValidatorTest extends AnyFlatSpec{
   "User" should "be valid" in {
     val testObject = new UserValidator()
-    val testUser: User = User("AMAN",
-      "aman.verma@knoldus.com",
-      "Knoldus")
+    val testUser: User = User("AMAN","VERMA", "Knoldus","aman.verma@knoldus.com",)
     assert(testObject.isValid(testUser))
 
   }
